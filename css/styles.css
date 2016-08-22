@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+}
+
+#header-nav {
+  background-color: PeachPuff;
+  border-radius: 0;
+  border: 0;
+  height: auto;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 0;
+}
+
+.navbar-brand h1 {
+  color: OliveDrab;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  text-align: center;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  background-color: OliveDrab;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: orange;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid dimgray;
+}
+
+#menu-title {
+  font-size: 1.8em;
+}
+
+section {
+  height: 1000px;
+  background-color: PeachPuff;
+  padding: 10px;
+  overflow: auto;
+}
